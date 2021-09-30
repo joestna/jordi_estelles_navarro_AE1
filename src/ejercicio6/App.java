@@ -6,16 +6,18 @@ public class App {
 
 	public static void main(String[] args) {
 		
-	Scanner input = new Scanner(System.in);
-
-	int longitudLista = 5;
+		Scanner input = new Scanner(System.in);
 	
-	int[] listaNumeros = new int[longitudLista];
-	
-	IncluirNumeros( listaNumeros, longitudLista, input );
-	int sumaNumeros = MostrarNumerosInverso( listaNumeros, longitudLista );
-	
-	System.out.println( "La suma de los numeros es : " + sumaNumeros );
+		int longitudLista = 5;
+		
+		int[] listaNumeros = new int[longitudLista];
+		
+		IncluirNumeros( listaNumeros, longitudLista, input );
+		int sumaNumeros = MostrarNumerosInverso( listaNumeros, longitudLista );
+		
+		System.out.println( "La suma de los numeros es : " + sumaNumeros );
+		
+		input.close();
 	
 	}
 

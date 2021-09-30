@@ -12,7 +12,7 @@ public class App {
 		int experiencia = input.nextInt();
 
 		MuestraSalario( experiencia );
-		
+	
 		
 		input.close();
 		

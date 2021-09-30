@@ -12,6 +12,8 @@ public class App {
 		
 		System.out.println( "El resultado es : " + Factorial( numero ) );
 		
+		input.close();
+		
 	}
 	
 	static int Factorial( int numero ){

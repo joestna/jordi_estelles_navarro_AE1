@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class App {
 
+	//Ejercicio con algunas ampliaciones utiles
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
@@ -21,7 +22,7 @@ public class App {
 		ListStudents( grupoAlumnos, numeroAlumno );		
 	}
 	
-	//Validad que el input introducido es correcto (numero del 1 al 9)
+	//Valida que el input introducido es correcto (numero del 1 al 9)
 	//Incluye el input (nombre del estudiante) al grupoAlumnos
 	static int AddStudent( String[] grupoAlumnos, int numeroAlumno,  Scanner input ) {
 		String nombreAlumno = "";
